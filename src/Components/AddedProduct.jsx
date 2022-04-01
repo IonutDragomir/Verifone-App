@@ -60,7 +60,13 @@ export function AddedProduct(props) {
           className="addedProduct-descriptionBox"
           style={{ display: display }}
         >
-          {props.description}
+          {props.description != undefined ? (
+            props.description
+          ) : (
+            <p style={{ fontStyle: "italic" }}>
+              This product has no description
+            </p>
+          )}
         </div>
       </div>
     </>
