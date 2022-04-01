@@ -17,7 +17,7 @@ function App() {
   //get all the data from api
   async function generateData() {
     let result = await getProducts(
-      "http://private-32dcc-products72.apiary-mock.com/product"
+      "https://private-32dcc-products72.apiary-mock.com/product"
     );
     //sort products descending based on prices
     setItems(sortProducts(result));
