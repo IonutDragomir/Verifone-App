@@ -1,0 +1,53 @@
+.cart-container {
+  width: 30vw;
+  border: 2px solid #bdbdbd;
+  margin-top: 19vh;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 1vh 1vw;
+}
+
+.heightAdded {
+  height: 50vh;
+}
+
+.cart-title {
+  font-size: 1.5rem;
+}
+
+.cart-labels {
+  font-size: 0.85 rem;
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-firstLine {
+  background-color: gray;
+}
+
+.cart-secondLine {
+  height: 0.25vh;
+  background-color: black;
+}
+
+.cart-total {
+  text-align: end;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.next {
+  border: none;
+  background-color: #16af22;
+  color: white;
+  padding: 1vh 1vw;
+  font-weight: 600;
+  width: 30vw;
+  font-size: 1.5rem;
+  margin: 1vh 0;
+  border-radius: 5px;
+}
